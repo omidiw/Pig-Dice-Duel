@@ -47,7 +47,7 @@ function holdScore() {
   const scoreEl = document.getElementById(`score--${activePlayer}`);
   const previousScore = Number(scoreEl.textContent);
   scoreEl.textContent = previousScore + currentScore;
-  if (Number(scoreEl.textContent >= 10)) {
+  if (Number(scoreEl.textContent) >= MAX_SCORE) {
     endGame();
     return;
   }
@@ -73,3 +73,4 @@ function newGame() {
   btnRoll.addEventListener('click', updateDice);
   btnHold.addEventListener('click', holdScore);
 }
+
