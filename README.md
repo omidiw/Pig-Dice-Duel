@@ -1,6 +1,7 @@
 # Pig Dice Duel
 
 A simple two-player dice game built with HTML, CSS, and JavaScript.
+check it out [here](https://omidiw.github.io/Pig-Dice-Duel/)
 
 ## About
 
